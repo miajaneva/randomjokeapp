@@ -5,6 +5,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/src/date_time.dart';
 import 'screens/home_screen.dart';
 
+
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
 FlutterLocalNotificationsPlugin();
 
@@ -63,6 +64,8 @@ Future<void> scheduleDailyNotification() async {
     matchDateTimeComponents: DateTimeComponents.time,
   );
 }
+
+
 
 class MyApp extends StatelessWidget {
   @override
